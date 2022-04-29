@@ -1,0 +1,256 @@
+.investidores img {
+  width: 65%;
+}
+
+footer .row {
+  /* border-top: 1px solid #9e9e9e; */
+}
+
+footer .informacoes {
+  margin-top: 8px;
+}
+
+footer .informacoes p.rede-social {
+  margin-bottom: 0;
+  color: #234079;
+  font-weight: 500;
+}
+
+footer .informacoes ul li {
+  float: left;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+footer .telefone-footer {
+  margin-top: 90px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+footer .title-rodape {
+  color: #234079;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: inherit;
+  min-height: 45px;
+}
+
+footer .img-amazon {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+  padding: 10px;
+  width: 70%;
+}
+
+footer ul li {
+  margin-top: 2px;
+  padding: 0 5px;
+}
+
+footer ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #212529;
+  line-height: 1.5;
+}
+
+@media(max-width: 1024px){
+  .img-amazon {
+    width: 40%;
+    margin: 10px 100px 20px 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .midia {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    padding-top: 6px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .end-copy {
+    width: 100%;
+    line-height: 1.5;
+    border: none;
+    float: none;
+    padding-top: 5px;
+    text-align: center
+  }
+
+  .logo-footer {
+    float: none;
+    width: 100%;
+    text-align: center
+  }
+
+  .midia ul li {
+    float: none;
+    padding: 2px 0;
+    display: inline-block
+  }
+}
+
+@media(max-width: 768px) {
+  footer .row {
+    text-align: center
+  }
+
+  footer ul li {
+    text-align: center
+  }
+
+  footer .bt-verde-line,
+  .bt-verde {
+    width: 30%;
+  }
+
+  .logo-footer {
+    width: 100%
+  }
+
+  .end {
+    height: fit-content;
+  }
+
+  .investidores .col-6 {
+    flex: 50% !important;
+  }
+
+  .investidores .logos-investidores {
+    text-align: center !important;
+    padding: 0 15px !important;
+    margin: 10px 0;;
+  }
+
+  .informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+  }
+
+  
+  .telefone-footer {
+    margin-top: 10px;
+  }
+
+  .img-amazon {
+    width: 55%;
+    margin: 10px 0px 20px 0;
+  }
+}
+
+@media(max-width: 425px) {
+  .investidores img {
+    width: 45%;
+    margin: 15px 0;
+  }
+
+  footer .bt-verde-line,
+  .bt-verde {
+    width: 50%;
+  }
+
+  .informacoes ul {
+    display: table;
+    margin: auto;
+  }
+
+  .investidores img {
+    width: 100%;
+  }
+
+}
+
+@media (max-width:375px) {
+  .img-amazon {
+    width: 63%;
+  }
+
+  .investidores img {
+    width: 60%;
+  }
+
+  .end {
+    background-size: 115%;
+    padding-top: 0;
+    background-blend-mode: luminosity
+  }
+
+  .investidores img {
+    width: 100%;
+  }
+
+  footer ul li {
+    margin-top: 0
+  }
+
+  .midia ul li img {
+    width: 40px;
+    height: 40px
+  }
+
+  .midia ul li {
+    float: left;
+    padding: 2px 0
+  }
+
+  .end-copy {
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+    /* left: 9px; */
+    line-height: 1.2em
+  }
+
+  .logo-footer {
+    width: 38%;
+    position: absolute;
+    right: 7px;
+    top: 7px
+  }
+
+  .midia {
+    width: 100%;
+    margin-left: 0;
+    top: 4px;
+    position: absolute;
+    padding-top: 0
+  }
+
+  .logo-footer img {
+    width: 100%
+  }
+
+  footer .end {
+    height: 30vh;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-position: right
+  }
+
+  .logo-footer {
+    width: 100%;
+    display: block;
+    position: initial;
+    text-align: center;
+    margin: 50px 0
+  }
+
+  .logo-footer a {
+    width: 50%;
+    margin: 30px auto
+  }
+
+  .logo-footer a img {
+    width: 30%
+  }
+
+  footer .bt-verde-line,
+  .bt-verde {
+    width: 80%;
+  }
+}

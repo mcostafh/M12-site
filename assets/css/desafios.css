@@ -1,0 +1,63 @@
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.cards-hover{
+  justify-content: flex-start;
+}
+
+.cards-hover .card {
+  background-color: transparent;
+  margin-right: 16px;
+  padding-top: 8px;
+  text-align: center;
+  width: 18%;
+}
+
+.lista-desafios {
+  columns: 3;
+}
+
+.lista-desafios li a {
+  color: #001e27;
+}
+
+@media(max-width: 1024px){
+  .actions .transparent-cta {
+    margin-right: 16px;
+  }
+
+  .lista-desafios {
+    columns: 2;
+  }
+}
+
+@media(max-width: 768px){
+  .cards-hover .card:hover {
+    background-color: transparent;
+  }
+
+  .lista-desafios {
+    columns: 1;
+  }
+
+  .lista-desafios li {
+    margin-bottom: 8px;
+  }
+}
+
+@media(max-width: 430px){
+  .lista-desafios {
+    padding: 0 0 0 16px;
+  }
+
+  .lista-desafios li {
+    padding: 12px 0 12px;
+  }
+
+  .cards-hover .card {
+    width: 47%;
+  }
+}

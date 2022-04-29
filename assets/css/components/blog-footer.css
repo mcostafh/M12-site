@@ -1,0 +1,221 @@
+.sec-blog h3.title-blog {
+  font-size: 1.8em ;
+  font-weight: 500 ;
+  color: #204079;
+}
+
+.sec-blog .owl-dots {
+  display: none;
+}
+
+.sec-blog > .container > .row > .col-lg-12 > p {
+  margin-bottom: 0;
+}
+
+.title-rodape {
+  color: #9e9e9e;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 6px 0 12px
+}
+
+@media (max-width:768px) {
+  .title-rodape {
+    text-align: center
+  }
+}
+
+.sec-blog .owl-carousel .owl-stage {
+  padding: 10px 0;
+}
+
+.sec-blog .card-blog {
+  /* border: 1px solid rgba(0, 0, 0, 0.397);  */
+  background-color: #fff;
+  min-height: 255px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.sec-blog .card-blog .card-details {
+  align-items: unset;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.sec-blog .card-blog .card-details .tag-blog {
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  padding: 8px 0;
+}
+
+.sec-blog .card-blog .card-details h4 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sec-blog .card-blog .card-details .empreendedor{
+  color: #156d9c;
+  font-weight: 600;
+}
+
+.sec-blog .card-blog .card-details .financa{
+  color: #156d9c;
+  font-weight: 600;
+}
+
+.sec-blog .card-blog .card-details .evolucao{
+  color: #156d9c;
+  font-weight: 600;
+}
+
+.sec-blog .card-blog .card-details .contabilidade{
+  color: #156d9c;
+  font-weight: 600;
+}
+
+.sec-blog .card-blog .card-details .gestao{
+  color: #156d9c;
+  font-weight: 600;
+}
+
+.sec-blog .item a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
+.sec-blog .owl-carousel .owl-item .card-img {
+  display: block;
+  width: 100%;
+  min-width: 197px;
+  min-height: 130px;
+  background-size: cover; 
+  background-position: center;
+}
+
+.sec-blog .owl-next {
+  right: 10%
+}
+
+.webp .card-1 {
+  background-image: url('../../../img/footer/capa-1.webp');
+}
+
+.no-webp .card-1 {
+  background-image: url('../../../img/footer/capa-1.png');
+}
+
+.webp .card-2 {
+  background-image: url('../../../img/footer/capa-2.webp');
+}
+
+.no-webp .card-2 {
+  background-image: url('../../../img/footer/capa-2.png');
+}
+
+.webp .card-3 {
+  background-image: url('../../../img/footer/blog-1.webp');
+}
+
+.no-webp .card-3 {
+  background-image: url('../../../img/footer/blog-1.png');
+}
+
+.webp .card-4 {
+  background-image: url('../../../img/footer/blog-2.webp');
+}
+
+.no-webp .card-4 {
+  background-image: url('../../../img/footer/blog-2.png');
+}
+
+.webp .card-5 {
+  background-image: url('../../../img/footer/blog-4.webp');
+}
+
+.no-webp .card-5 {
+  background-image: url('../../../img/footer/blog-4.png');
+}
+
+.webp .card-6 {
+  background-image: url('../../../img/footer/blog-3.webp');
+}
+
+.no-webp .card-6 {
+  background-image: url('../../../img/footer/blog-3.png');
+}
+
+.sec-blog .owl-theme .owl-next span, .sec-blog .owl-theme .owl-prev span {
+  font-size: 1em;
+}
+
+@media(max-width: 770px){
+  .sec-blog .owl-carousel {
+    position: relative;
+    right: 0;
+    padding: 0 35px;
+  }
+  
+  .sec-blog .owl-nav {
+    left: 40%;
+    bottom: 15%;
+    width: 30%;
+  }
+  
+  .sec-blog .owl-nav span {
+    font-size: 1em;
+  }
+
+  .sec-blog .owl-theme .owl-next {
+    right: -20px !important;
+  }
+
+  .sec-blog .owl-theme .owl-prev {
+    left: -20px !important;
+  }
+
+  .sec-blog .owl-carousel .owl-item .card-img {
+    min-width: auto;
+    min-height: 100px;
+  }
+}
+
+@media(max-width: 430px){
+  .sec-blog .owl-theme .owl-next {
+    right: -10px !important;
+  }
+
+  .sec-blog .owl-theme .owl-prev {
+    left: -10px !important;
+  }
+  
+  .sec-blog .pl-0{
+    padding-left: 15px !important;
+  }
+
+  .sec-blog .card-blog {
+    width: 100%;
+    min-height: 230px;
+  }
+}
+@media(max-width: 320px){
+  .sec-blog .owl-nav {
+    width: 45%;
+    left: 30%;
+  }
+
+  .sec-blog .owl-carousel {
+    position: relative;
+    right: 0;
+    padding: 20px;
+  }
+
+  .sec-blog .p-5{
+    padding: 10px !important;
+  }
+}

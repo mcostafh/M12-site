@@ -1,0 +1,115 @@
+
+.header-bg-internas {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.header-bg-internas .header-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: initial;
+}
+
+.header-bg-internas h1,
+.header-bg-internas h2,
+.header-eventos h1,
+.header-eventos h2 {
+  color: #fff;
+}
+
+.header-bg-internas h1 {
+  font-size: 2.3em;
+  font-weight: 600;
+  padding-top: 0;
+  /* text-transform: uppercase !important; */
+}
+
+.header-bg-internas h2 {
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: none;
+  margin: 30px 0px;
+}
+
+.header-bg-internas .header-info .page-description .actions {
+  display: flex;
+}
+
+.bg-internas {
+  width: 100%;
+  padding: 50px 0 0;
+  background: url(../../img/bgs/o-contorno-preto.svg) top left no-repeat, url(../../img/bgs/quadrados-2.svg) bottom right no-repeat;
+  background-size: 19%, 8%
+}
+
+.bg-internas .col-md-8 {
+  min-height: 188px
+}
+
+.bg-internas h2 {
+  font-weight: 300;
+  font-size: 100%;
+  text-transform: none;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center
+}
+
+@media only screen and (max-width:768px) {
+  .header-bg-internas .header-info .page-description {
+    margin-left: 10px
+  }
+
+  .header-bg-internas .header-info .page-description a {
+    margin: 5px 0 !important;
+    margin-right: 20px
+  }
+}
+
+@media(max-width: 430px){
+  .header-contador .page-description h1,
+  .header-bg-internas .page-description h1 {
+    font-size: 1.8em !important;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .header-contador .page-description h2,
+  .header-bg-internas .page-description h2 {
+    font-size: 16px;
+    margin: 15px 0px;
+    text-align: left;
+  }
+
+  .header-contador .page-description h2 > br, 
+  .header-bg-internas .page-description h2 > br {
+    display: none;
+  }
+
+  .header-bg-internas .header-info{
+    width: 100%;
+  }
+
+  .header-bg-internas .header-info .page-description {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .header-contador .actions {
+    align-items: center;
+  }
+
+  .header-bg-internas .header-info .page-description a {
+    margin-right: 0px; 
+    width: 100%;
+  }
+
+  .header-bg-internas .header-info .page-description .actions {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,146 @@
+.modal-experimente {
+  max-width: 490px !important;
+}
+
+.modal-franqueado-home {
+  max-width: 530px !important;
+}
+
+.modal-experimente .modal-header{
+  padding: 0;
+  border: none;
+}
+
+.modal-header {
+  display: none;
+}
+
+/* .modal-experimente .modal-header .close {
+
+} */
+
+.modal-experimente .modal-body {
+  position: relative;
+  padding: 20px 30px;
+}
+
+.modal-experimente .modal-content h3,
+.modal-experimente .modal-content h1 {
+  font-size: 1.8em;
+  color: #204079;
+  text-align: center;
+  text-transform: inherit;
+}
+
+.modal-experimente .modal-content h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: left;
+}
+
+.modal-experimente .form-experimente {
+  text-align: left;
+}
+
+.modal-experimente .form-experimente label,
+.modal-experimente .form-experimente span,
+.modal-experimente .form-experimente legend{
+  color: #4e5862 !important;
+  margin-top: 7px !important;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.modal-experimente .form-experimente legend {
+  font-size: 16px !important;
+}
+
+.modal-experimente p {
+  color: #4e5862;
+  text-align: center;
+}
+
+.modal-experimente .form-experimente div .form-group input,
+.modal-experimente .form-experimente div .form-group select,
+.modal-experimente .form-experimente .hs-input  {
+  border: 1px solid #b0b0b094 !important;
+  border-radius: 5px;
+  margin: 0;
+  width: 100%;
+  height: 35px;
+}
+
+.modal-experimente .form-experimente div .form-group select > option{
+  color: #4e5862;
+}
+
+.modal-experimente .form-experimente #investimento_dispon_vel_para_franquia-8d22e8f9-cc5f-4602-9dbf-61423b0c82dd {
+  width: 100% !important;
+}
+
+/* .modal-experimente .form-experimente div .form-group select {
+  border: 1px solid #b0b0b094;
+} */
+
+.form-experimente{
+  padding: 0;
+}
+
+.modal-franqueado-home .form-experimente legend {
+  font-size: 12px !important;
+  margin-top: 0 !important;
+}
+
+.pwd-group .pwd-label{
+  font-size: 12px;
+}
+
+.modal-experimente .form-experimente .text-helper, 
+.modal-experimente .form-experimente .hs-error-msg {
+  color: red !important;
+  font-size: 12px;
+}
+
+.hs-button {
+  background: #f58220;
+  border: 1px solid #f58220;
+  border-radius: 5px;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  padding: 10px;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.modal #investimento_dispon_vel_para_franquia-70cfa4ab-84d4-4ba2-a4c3-71fac833034c{
+  width: 100%!important;
+}
+
+.modal-experimente .form-group {
+  margin-bottom: 0;
+}
+
+@media(max-width: 768px){
+  .modal-content{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 425px){
+  .modal-open .modal {
+    padding: 0 !important;
+  }
+
+  .cta-button.pull-right {
+    float: unset;
+  }
+
+  .modal{
+    z-index: 999999;
+  }
+}
+

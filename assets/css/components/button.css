@@ -1,0 +1,241 @@
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .btn {
+    transition: none
+  }
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.btn.disabled,
+.btn:disabled {
+  opacity: .65
+}
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none
+}
+
+.btn-link:hover {
+  color: #0056b3;
+  text-decoration: underline
+}
+
+.btn-link.focus,
+.btn-link:focus {
+  text-decoration: underline;
+  box-shadow: none
+}
+
+.btn-link.disabled,
+.btn-link:disabled {
+  color: #6c757d;
+  pointer-events: none
+}
+
+.btn-block {
+  display: block;
+  width: 100%
+}
+
+.btn-block+.btn-block {
+  margin-top: .5rem
+}
+
+input[type=button].btn-block,
+input[type=reset].btn-block,
+input[type=submit].btn-block {
+  width: 100%
+}
+
+input.hs-button{
+  background: #f58220;
+  border: 1px solid #f58220;
+  border-radius: 5px;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  padding: 10px !important;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  height: auto !important;
+  float: right;
+}
+
+
+/* BOTAO BRANCO BORDA VERDE  */
+.cta,
+.secondary-cta, 
+.secondary-cta-azul,
+.bt-preto-line,
+a.bt-preto-line,
+.bt-verde-line,
+.bt-branco {
+  background: white;
+  border: 1px solid #f58220;
+  border-radius: 5px;
+  color: #f58220;
+  padding: 13px 10px;
+  font-size: 16px;
+  line-height: 1;
+  transition: all 0.3s ease;
+  display: inline-block;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.secondary-cta:focus,
+.secondary-cta:hover,
+.bt-branco:focus,
+.bt-branco:hover,
+.bt-preto-line,
+a.bt-preto-line,
+.bt-verde-line:focus,
+.bt-verde-line:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* BOTAO FUNDO VERDE  */
+.blue-cta,
+.primary-cta,
+.cta-button,
+.cta-button-azul,
+.bt-verde {
+  background: #f58220;
+  border: 1px solid #f58220;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  padding: 13px 10px;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.cta-button-azul,
+.blue-cta{
+  background-color: #013E7D;
+  border: 1px solid #013E7D;
+}
+
+.secondary-cta-azul,
+.white-cta{
+  border: 1px solid #013E7D;
+  color: #013E7D !important;
+}
+
+.secondary-cta-azul:hover {
+  color: #013E7D;
+}
+
+.cta-button:focus,
+.cta-button:hover,
+.bt-verde:focus,
+.bt-verde:hover,
+.cta-button-azul:hover,
+.secondary-cta-azul:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* BOTAO FUNDO PRETO  */
+.bt-preto,
+a.bt-preto {
+  background: #212529;
+  background-color: #212529;
+  border-radius: 5px;
+  border: 1px solid #212529;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 14px 20px 12px;
+  text-decoration: none;
+  transition-property: transform;
+  transition-duration: .3s;
+}
+.bt-preto:focus,
+.bt-preto:hover,
+a.bt-preto:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* #back-to-top {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 50vh;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000
+}
+
+#back-to-top::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff
+}
+
+#back-to-top:hover {
+  cursor: pointer;
+  background-color: #333
+}
+
+#back-to-top:active {
+  background-color: #555
+}
+
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible
+} */
