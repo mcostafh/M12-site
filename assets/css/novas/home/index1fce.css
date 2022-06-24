@@ -135,9 +135,11 @@
  }
 }
 .banner {
- background-image:url(../../../../images/home/persona-banner.png);
+ background-image:url(../../../../images/home/persona.png);
  border-bottom:1px solid rgba(0,0,0,0.15);
- height:650px;
+ margin-top:20px;
+ 
+ height:820px;
  width:1250px;
 
 }
